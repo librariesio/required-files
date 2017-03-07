@@ -3,6 +3,7 @@ Thanks for considering contributing. These guidelines outline how to contribute 
 
 ## Table of Contents
 [What is Libraries.io all about?](#whats-librariesio-about)
+
 [What should I know Before I get started?](#what-should-i-know-before-i-get-started)
 * [Code of conduct](#code-of-conduct)
 * [Langauge](#langauge)
@@ -19,6 +20,8 @@ Thanks for considering contributing. These guidelines outline how to contribute 
 * [Chat](#chat)
 * [Video](#video)
 * [Social media](#twitter)
+
+[Who Are Libraries.io's Users?](#who-are-librariesios-users)
 
 [Our workflow](#workflow)
 
@@ -37,8 +40,11 @@ By outlining our [mission and strategy](/strategy.md) we hope to give you more p
 ### Code of Conduct
 Libraries.io is an open and inclusive [community of people](https://github.com/orgs/librariesio/people) working together. We expect contributors to abide by our [contributor code of conduct](CODE_OF_CONDUCT.md) which basically say 'be excellent to each other'. Please report unacceptable behavior to conduct@libraries.io
 
-### Langauge
+### Language
 We communicate predominately in English. Contributions to the project should be made with English as the first language. We are happy for members of the community to communicate in a language other than English in chat, email and video but be aware that this might be considered exclusive by other members of the community.
+
+### Documentation
+Documentation for the project as a whole is available at [docs.libraries.io](https://docs.libraries.io). These pages are generated from the [documentation](https://github.com/librariesio/documentation) repo. Documentation that needs to be in every repo is replicated in [required-files](https://github.com/librariesio/required-files) (currently limited to [GitHub templates](https://github.com/blog/2111-issue-and-pull-request-templates)). Otherwise documentation will be specific to that repo. For example the main [Libraries.io](https://github.com/librariesio/libraries.io) `README.md` contains information about installing and running the main rails application.
 
 ### Setup
 If you wish to make contributions to Libraries.io then you'll need a local version of the site to test. You can find instructions to install the correct Ruby version, Postgres, and to set up the database in our [README](https://github.com/librariesio/libraries.io/blob/master/README.md#getting-started).
@@ -122,6 +128,27 @@ We have a Facebook page at [@libraries.io](https://www.facebook.com/libraries.io
 
 ### Medium
 We have a Medium account at [@librariesio](https://medium.com/@librariesio) and once again it is used to reflect news, events and musings by contributors rather than a direct method of communication. Contributors are encouraged to reference @librariesio in a post when talking about the project, so that we may recommend it if appropriate. Again the account is moderated and protected by the [core team](https://github.com/orgs/librariesio/teams/core).
+
+## Who Are Libraries.io's Users?
+Libraries.io focusses on the following personas:
+
+### Google 
+_Is hungry for linked data so she can serve you up search traffic_
+
+### 'Searcher' 
+_Is a developer with a problem, she is looking for something to help solve it._ 
+
+### 'Producer' 
+_Has a product or products that incorporates some free/open source dependencies. She needs to ensure the product(s) are well maintained, free of vulnerabilities and licence compatible._
+
+### 'Maintainer'
+_Is a developer with a successful free/open source project. She's looking to understand more about those who use her project, attract more contributors and manage their contributions well._
+
+### 'Extender'
+_Has her own ideas. She wants access to the raw data so that she can mash up her own service and offer it to the world._
+
+### 'Overlord'
+_Has a vast empire of people, products and projects. Some of which she publishes as open source, some are proprietary. She wants to ensure that her policies regarding the use of dependencies are adhered to and that her team are as efficient as possible._
 
 ## Workflow
 In general we use [GitHub](https://help.github.com/) and [Git](https://git-scm.com/docs/gittutorial) to support our workflow. If you are unfamiliar with those tools then you should check them out until you feel you have a basic understanding of GitHub and a working understanding of Git. Specifically you should understand how forking, branching, committing, PRing and merging works.
